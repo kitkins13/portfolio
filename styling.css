@@ -1,0 +1,121 @@
+/*css styling for my portfolio*/
+/*colour scheme
+    #b0c4de, #191970, #6b5ba8, #2f3f3f, #e6e4f8, #faf0e6
+*/
+
+* {
+  overflow: scroll;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: sans-serif;
+  
+}
+
+/*universal styles*/
+
+h1 {
+  color: #b0c4de;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Dosis";
+  margin: 50px auto 20px;
+}
+
+h2 {
+  color: #b0c4de;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Dosis";
+  margin: 20px auto;
+}
+
+h3 {
+  color: #191970;
+  font-size: 25px;
+  font-family: "Quicksand";
+  text-decoration-line: overline underline;
+  margin: 10px;
+}
+
+h4 {
+  color: #6b5ba8;
+  font-size: 22px;
+  font-style: italic;
+  font-family: "Quicksand";
+  margin: 5px 20px;
+}
+
+h5 {
+  color: #b0c4de;
+  text-align: center;
+  margin: 5px;
+}
+
+h6 {
+  color: #b0c4de;
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  color: #2f3f3f;
+  text-align: justify;
+  font-family: "Quicksand";
+  line-height: 1.5;
+  margin: 10px;
+}
+
+div {
+  border: 1.5px solid #2f3f3f;
+  border-radius: 10px;
+  margin: 15px 15px 30px;
+}
+
+/*section styling*/
+
+header, footer {
+  background-color: #191970;
+}
+
+main {
+  background-color: #eae8eb;
+}
+
+/*class styling*/
+
+.header_menu, .footer_menu {
+  color: #b0c4de;
+  margin: 30px;
+  font-size: 22px;
+  font-family: "Dosis";
+}
+
+.projects {
+  border: transparent;
+  border-bottom: 1.5px solid #2f3f3f;
+}
+
+.project_info {
+  display: inline-block;
+  width: 1250px;
+  position: relative;
+  float: left;
+  margin: 10px 20px;
+}
+
+.project_image {
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin: 10px 20px;
+  width: 25%;
+  
+}
+
+/*ID styling*/
+
+#top_nav, #bottom_nav {
+  text-align: center;
+  text-decoration-color: #faf0e6;
+  border: transparent;
+}
