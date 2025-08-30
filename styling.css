@@ -1,4 +1,5 @@
-/*css styling for my portfolio*/
+/*css styling for my portfolio
+    code by xZnu0us 2025*/
 /*colour scheme
     #b0c4de, #191970, #6b5ba8, #2f3f3f, #e6e4f8, #faf0e6
 */
@@ -8,7 +9,6 @@
   box-sizing: border-box;
   margin: 0 auto;
   font-family: sans-serif;
-  
 }
 
 /*universal styles*/
@@ -69,6 +69,7 @@ div {
   border: 1.5px solid #2f3f3f;
   border-radius: 10px;
   margin: 15px 15px 30px;
+  width: 90%;
 }
 
 /*section styling*/
